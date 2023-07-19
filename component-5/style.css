@@ -1,0 +1,40 @@
+.coffee-container::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  height: 100%;
+  width: 100%;
+  right: 0px;
+  background-color: wheat;
+  border-radius: 24px;
+  z-index: -1;
+}
+
+.coffee-container::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  top: -150px;
+  height: 500px;
+  width: 380px;
+  background-image: url(assets-cmp5/coffee-bottle.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+  .coffee-container::before {
+    top: 25px;
+    bottom: 0px;
+    height: 85%;
+  }
+  .coffee-container::after {
+    top: -50px;
+    height: 300px;
+    width: 300px;
+  }
+}
