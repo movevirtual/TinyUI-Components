@@ -6,4 +6,4 @@ We will be adding more components as time flies, so be ready! 🔥
 
 To get started, simply copy the code from the folder of your preferred component. For some components, we have used a style.css file instead of pure Tailwind CSS. We made this decision because we didn't want to make it difficult for users to customize the components. Since every project has a `global.css` or `style.css` file, we thought using a CSS stylesheet for certain parts would be better. We hope you like it!
 
-![TinyUI](https://github.com/movevirtual/TinyUI-Components/assets/136367781/515ea706-97a6-4603-9c29-9f21c6abad74)
+![TinyUI-package-1](https://github.com/movevirtual/TinyUI-Components/assets/136367781/11292cb4-bcbc-411f-b34a-55c83349d0e7)
